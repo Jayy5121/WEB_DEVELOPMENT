@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+}
+.box{
+    background-image: url(assets/bg-net.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    width: 100%;
+    position: relative;
+    border-bottom: 7px solid rgb(82, 82, 82);
+}
+.blk-box{
+    background-color: black;
+    position:absolute;
+    opacity: 0.74;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 258px;
+    z-index: 1;
+    position: relative;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-family: "Martel Sans", sans-serif;
+    position: relative;
+    gap: 23px;
+    margin-top: 8%;
+    padding: 23px;
+}
+.line1{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.line2{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.line3{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    padding: 5px 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    background-color: rgba(228, 211, 211, 0.233);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.btn-red{
+    background-color: red;
+    color:white;
+    border: none;
+    padding: 10px 25px;
+    font-size : 20px;
+    border-radius: 4px;
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+form input{
+    padding: 7px 120px 8px 14px;
+    font-size : 20px;
+    border-radius: 5px;
+    background-color: rgba(46, 43, 43, 0.589);
+    border: 1px solid rgba(224, 217, 217, 0.5);
+    color: white;
+}
+form input:active{
+    border: 2px solid white;
+}
+.btn-redsm{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+}
+.jay{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    font-family: "Martel Sans", sans-serif;
+}
+.jaytext :nth-child(1){
+    font-size: 48px; 
+    font-weight: 900;
+}
+.secimg{
+    /* width: 30vw;
+    z-index: 10; */
+    position: relative;
+}
+.secimg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    z-index: -1;
+    position: absolute;
+    top: 85px;
+    right:1px;
+}
+.separation{
+    height: 7px;
+    margin-top: 75px;
+    background-color: rgb(82, 82, 82);
+}
+.page3{
+    display: flex;
+}
+.syf :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+.page3 :nth-child(2){
+    width: 600px;
+}
+.syf{
+    margin-top: 10%;
+    height: 150px;
+}
+.syf :nth-child(2){
+    font-size: 25px;
+}
+.page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.page4 :nth-child(2){
+    margin-top: 40px;
+}
+.wevery{
+    width: 600px;
+    margin-left: 200px;
+}
+.wevery div{
+    font-size: 48px;
+    font-weight: 900;
+}
+.wevery :nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+}
+.thrimg{
+    z-index: 10;
+    position: relative;
+}
+.thrimg video{
+    width: 400px;
+    z-index: -2;
+    position: absolute;
+    top: 102px;
+    right: 120px;
+}
+.page5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.cprof span{
+    font-size: 48px;
+    font-weight: 900;
+}
+.cprof :nth-child(2){
+    font-size: 18px;
+    width: 600px;
+}
+.forimg{
+    margin-top: 10px;
+    width: 600px;
+    height: 400px;
+}
+.faq{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.faqbox{
+    transition:  all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 18px;
+    max-width: 70vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+.faqbox svg{
+    filter: invert(1);
+}
+footer{
+    color: grey;
+    margin:90px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.ni{
+    font-size: 15px;
+    right: 20px;
+    color: grey;
+}
+@media screen and (max-width: 800px){
+    nav{
+        max-width: 90vw;
+    }
+    .hero :nth-child(1){
+        font-size: 32px;
+    }
+    .hero :nth-child(2){
+        font-size: 18px;
+    }
+    .hero :nth-child(3){
+        font-size: 18px;
+    }
+    .blk-box{
+        height: 51vh;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .jay{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 108px;
+    }
+    .jaytext :nth-child(1){
+        font-size: 32px;
+    }
+    .page3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 58vh;
+        text-align: center;
+    }
+    .syf :nth-child(1){
+        font-size: 32px;
+    }
+    .syf :nth-child(2){
+        font-size: 18px;
+    }
+    .secimg img{
+        height: 248px;
+        width: 311px;
+    }
+    .secimg video{
+        right: 3px;
+        top: -2px;
+        height: 233px;
+        width: 257px;
+    }
+    .page4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 58vh;
+        text-align: center;
+    }
+    .wevery{
+        margin-left: 37px;
+        width: 520px;
+    }
+    .wevery :nth-child(1){
+        font-size: 32px;
+    }
+    .wevery :nth-child(2){
+        font-size: 18px;
+
+    }
+    .theimg img{
+        height: 640px;
+        width: 420px;
+    }
+    .thrimg video{
+        right: 129px;
+        top: 81px;
+        height: 257px;
+        width: 400px;
+    }
+    .page4 :nth-child(2){
+        margin-top: 12px;
+    }
+    .page5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 48vh;
+        margin: auto;
+    }
+    .cprof :nth-child(1){
+        font-size: 32px;
+    }
+    .cprof :nth-child(2){
+        font-size: 18px;
+    }
+    .forimg {
+        margin-right: 148px;
+        margin-top: 36px;
+        height: 640px;
+        width: 420px;
+    }
+    .faq{
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 34px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .links1{
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+}
